@@ -60,8 +60,8 @@ function galleria_test_shortcode($args) {
   ?>
   <div id="galleria_photosets"></div>
   <script type="text/javascript">
-  $(function() {
-    $('#galleria').galleria({
+  jQuery(document).ready(function() {
+    jQuery('#galleria').galleria({
       flickr: 'set:<?php echo $args['flickr_set_id'] ?>',
       flickrOptions: {
         sort: 'date-posted-asc'
