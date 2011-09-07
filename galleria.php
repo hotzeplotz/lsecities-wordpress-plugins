@@ -86,5 +86,6 @@ function galleria_init() {
 add_action('init', 'galleria_init' );
 add_shortcode('galleria', 'galleria_shortcode');
 add_shortcode('galleria_photosets', 'galleria_photosets_shortcode');
+add_shortcode('galleria_test', 'galleria_test_shortcode');
 
 ?>
