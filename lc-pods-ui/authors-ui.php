@@ -11,8 +11,8 @@ Author URI: http://lsecities.net/
 function pods_ui_authors()
 {
   $icon = '';
-  add_object_page('Author', 'Author', 'read', 'author', '', $icon);
-  add_submenu_page('author', 'Author', 'Author', 'read', 'author', 'author_page');
+  add_object_page('Authors', 'Authors', 'read', 'authors', '', $icon);
+  add_submenu_page('authors', 'Authors', 'Authors', 'read', 'authors', 'author_page');
 }
 
 function author_page()
