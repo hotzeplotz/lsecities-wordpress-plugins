@@ -58,7 +58,7 @@ function galleria_photosets_shortcode($args) {
 function galleria_test_shortcode($args) {
   ob_start();
   ?>
-  <div id="galleria"></div>
+  <div id="galleria" style="height: <?php $args['height'] ? $galleria_height = $args['height'] : $galleria_height = 300?>;"></div>
   <script type="text/javascript">
   jQuery(document).ready(function() {
     jQuery('#galleria').galleria({
