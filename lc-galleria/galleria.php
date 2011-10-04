@@ -58,7 +58,7 @@ function galleria_photosets_shortcode($args) {
 function galleria_test_shortcode($args) {
   ob_start();
   ?>
-  <div id="galleria_photosets"></div>
+  <div id="galleria"></div>
   <script type="text/javascript">
   jQuery(document).ready(function() {
     jQuery('#galleria').galleria({
