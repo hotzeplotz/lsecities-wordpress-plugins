@@ -77,7 +77,7 @@ function galleria_test_shortcode($args) {
 
 function galleria_init() {
   wp_enqueue_script('jquery');
-	wp_enqueue_script('galleria', WP_PLUGIN_URL.'/lc-galleria/galleria/galleria-1.2.5.min.js', 'jquery');
+	wp_enqueue_script('galleria', WP_PLUGIN_URL.'/lc-galleria/galleria/galleria-1.2.5lc0.min.js', 'jquery');
 	wp_enqueue_script('galleria_flickr', WP_PLUGIN_URL.'/lc-galleria/galleria/plugins/flickr/galleria.flickr.min.js', 'galleria');
   wp_enqueue_script('galleria_theme_classic', WP_PLUGIN_URL.'/lc-galleria/galleria/themes/classic/galleria.classic.min.js', 'galleria');
 	wp_enqueue_script('galleria_extras', WP_PLUGIN_URL.'/lc-galleria/galleria_extras.js', 'jquery');
