@@ -8,7 +8,7 @@ Author: Andrea Rota
 Author URI: http://lsecities.net/
 */
 
-function pods_ui_authors()
+function pods_ui_people()
 {
   $icon = '';
   add_object_page('People', 'People', 'read', 'people', '', $icon);
@@ -39,6 +39,6 @@ function person_page()
   pods_ui_manage($object);
 }
 
-add_action('admin_menu','pods_ui_authors');
+add_action('admin_menu','pods_ui_people');
 
 ?>
