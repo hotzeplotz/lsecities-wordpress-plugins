@@ -72,7 +72,7 @@ function galleria_shortcode($args) {
       flickrOptions: {
         sort: 'date-posted-asc'
       }
-      <?php endif ;
+      <?php endif ; ?>
     });
   });
   </script>  
