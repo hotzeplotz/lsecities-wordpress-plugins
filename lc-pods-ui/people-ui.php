@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name: Authors Pods UI
+Plugin Name: LSE Cities People Pods UI
 Plugin URI: http://lsecities.net/labs/
-Description: Customized Pods UI for Authors
-Version: 0.1
+Description: Customized Pods UI for People
+Version: 0.2
 Author: Andrea Rota
 Author URI: http://lsecities.net/
 */
@@ -11,11 +11,11 @@ Author URI: http://lsecities.net/
 function pods_ui_authors()
 {
   $icon = '';
-  add_object_page('Authors', 'Authors', 'read', 'authors', '', $icon);
-  add_submenu_page('authors', 'Authors', 'Authors', 'read', 'authors', 'author_page');
+  add_object_page('People', 'People', 'read', 'people', '', $icon);
+  add_submenu_page('people', 'People', 'People', 'read', 'people', 'person_page');
 }
 
-function author_page()
+function person_page()
 {
   $object = new Pod('authors');
   $add_fields = $edit_fields = array(
@@ -25,7 +25,7 @@ function author_page()
                     'organization',
                     'role');
   $object->ui = array(
-                    'title'   => 'Author',
+                    'title'   => 'Person',
                     'columns' => array(
                               'name'         => 'Name',
                               'family_name'  => 'Family name',
