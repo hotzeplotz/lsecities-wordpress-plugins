@@ -24,7 +24,7 @@ function flowplayer_shortcode($args) {
         plugins: {
           rtmp: {
             url: 'flowplayer.rtmp-3.2.3.swf',
-            netConnectionUrl: '<?php echo $args['netConnectionUrl']; ?>'
+            netConnectionUrl: '<?php echo $args['netconnectionurl']; ?>'
           }
         }
       });
