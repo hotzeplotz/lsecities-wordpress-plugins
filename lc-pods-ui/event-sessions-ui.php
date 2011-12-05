@@ -8,11 +8,11 @@ Author: Andrea Rota
 Author URI: http://lsecities.net/
 */
 
-function pods_ui_event_sessions()
+function pods_ui_event_session()
 {
   $icon = '';
-  add_object_page('Event sessions', 'Event sessions', 'read', 'event_sessions', '', $icon);
-  add_submenu_page('event_sessions', 'Event sessions', 'Event sessions', 'read', 'event_sessions', 'event_sessions_page');
+  add_object_page('Event session', 'Event session', 'read', 'event_session', '', $icon);
+  add_submenu_page('event_session', 'Event session', 'Event session', 'read', 'event_session', 'event_session_page');
 }
 
 function event_sessions_page()
@@ -40,6 +40,6 @@ function event_sessions_page()
   pods_ui_manage($object);
 }
 
-add_action('admin_menu','pods_ui_event_sessions');
+add_action('admin_menu','pods_ui_event_session');
 
 ?>
