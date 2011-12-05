@@ -29,7 +29,7 @@ function event_session_page()
                     'columns' => array(
                               'name'         => 'Title',
                               'session_type' => 'Session type',
-                              'organization' => 'Sequence',
+                              'sequence'     => 'Sequence',
                               'start'        => 'Start',
                               'created'      => 'Date Created',
                               'modified'     => 'Last Modified'
