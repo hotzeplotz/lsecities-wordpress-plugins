@@ -12,7 +12,7 @@ function flowplayer_shortcode($args) {
   ob_start();
   ?>
   <div>
-    <a id="flowplayer" style="height: <?php echo ($args['height'] ? $args['height'] : '300'); ?>px;"></div>
+    <a id="flowplayer" style="width: <?php echo ($args['width'] ? $args['width'] : '480'); ?>px; height: <?php echo ($args['height'] ? $args['height'] : '360'); ?>px;"></div>
     </a>
     <script type="text/javascript">
       flowplayer("flowplayer", "<?php echo WP_PLUGIN_URL.'/lc-flowplayer/flowplayer/flowplayer-3.2.7.swf'; ?>", {
