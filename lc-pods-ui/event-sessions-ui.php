@@ -18,11 +18,6 @@ function pods_ui_event_session()
 function event_session_page()
 {
   $object = new Pod('event_session');
-  $add_fields = $edit_fields = array(
-                    'name',
-                    'session_type',
-                    'sequence',
-                    'start');
   $object->ui = array(
                     'title'   => 'Event session',
                     'sort' => 'start',
@@ -33,9 +28,7 @@ function event_session_page()
                               'start'        => 'Start',
                               'created'      => 'Date Created',
                               'modified'     => 'Last Modified'
-                              ),
-                    'add_fields'  => $add_fields,
-                    'edit_fields' => $edit_fields
+                              )
 					);
   pods_ui_manage($object);
 }
