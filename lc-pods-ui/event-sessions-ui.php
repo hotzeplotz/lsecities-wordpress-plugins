@@ -25,7 +25,7 @@ function event_session_page()
                     'start');
   $object->ui = array(
                     'title'   => 'Event session',
-                    'reorder' => 'start',
+                    'sort' => 'start',
                     'columns' => array(
                               'name'         => 'Title',
                               'session_type' => 'Session type',
