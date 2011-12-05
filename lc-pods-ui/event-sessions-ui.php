@@ -15,7 +15,7 @@ function pods_ui_event_session()
   add_submenu_page('event_session', 'Event session', 'Event session', 'read', 'event_session', 'event_session_page');
 }
 
-function event_sessions_page()
+function event_session_page()
 {
   $object = new Pod('event_session');
   $add_fields = $edit_fields = array(
