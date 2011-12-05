@@ -40,6 +40,6 @@ function event_sessions_page()
   pods_ui_manage($object);
 }
 
-add_action('admin_menu','pods_ui_events_sessions');
+add_action('admin_menu','pods_ui_event_sessions');
 
 ?>
