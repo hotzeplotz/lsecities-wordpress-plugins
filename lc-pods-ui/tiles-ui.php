@@ -27,7 +27,7 @@ function tile_page()
                     'target_uri',
                     'image',
                     'tagline',
-                    'blurb'
+                    'blurb',
                     'family');
   $object->ui = array(
                     'title'   => 'Tile',
