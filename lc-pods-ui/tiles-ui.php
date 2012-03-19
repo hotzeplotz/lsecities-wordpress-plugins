@@ -17,7 +17,7 @@ function pods_ui_tiles()
 
 function tile_page()
 {
-  $object = new Pod('tiles');
+  $object = new Pod('tile');
   $add_fields = $edit_fields = array(
                     'slug',
                     'name',
