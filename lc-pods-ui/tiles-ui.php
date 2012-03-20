@@ -21,13 +21,15 @@ function tile_page()
   $add_fields = $edit_fields = array(
                     'slug',
                     'name',
+                    'tagline',
+                    'blurb',
                     'tile_layout',
                     'class',
                     'target_page',
                     'target_uri',
                     'image',
-                    'tagline',
-                    'blurb',
+                    'posts_category',
+                    'plain_content',
                     'family');
   $object->ui = array(
                     'title'   => 'Tile',
