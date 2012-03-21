@@ -21,6 +21,7 @@ function tile_page()
   $add_fields = $edit_fields = array(
                     'slug',
                     'name',
+                    'display_title',
                     'tagline',
                     'blurb',
                     'tile_layout',
