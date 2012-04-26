@@ -31,7 +31,7 @@ function tile_page()
                     'image',
                     'posts_category',
                     'plain_content',
-                    'family');
+                    'linked_event');
   $object->ui = array(
                     'title'   => 'Tile',
                     'reorder' => 'displayorder',
