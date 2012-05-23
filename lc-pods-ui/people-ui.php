@@ -19,11 +19,16 @@ function person_page()
 {
   $object = new Pod('authors');
   $add_fields = $edit_fields = array(
+                    'slug',
                     'name',
                     'family_name',
                     'profile_text',
                     'organization',
-                    'role');
+                    'role',
+                    'staff_pages_blurb',
+                    'extended_blurb',
+                    'groups',
+                    'research_projects');
   $object->ui = array(
                     'title'   => 'Person',
                     'columns' => array(
