@@ -3,7 +3,7 @@
 Plugin Name: LSE Cities People Pods UI
 Plugin URI: http://lsecities.net/labs/
 Description: Customized Pods UI for People
-Version: 0.2
+Version: 0.3
 Author: Andrea Rota
 Author URI: http://lsecities.net/
 */
