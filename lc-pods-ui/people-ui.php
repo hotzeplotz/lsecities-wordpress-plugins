@@ -22,6 +22,7 @@ function person_page()
                     'slug',
                     'name',
                     'family_name',
+                    'email_address',
                     'profile_text',
                     'organization',
                     'role',
@@ -36,6 +37,7 @@ function person_page()
                     'research_projects');
   $object->ui = array(
                     'title'   => 'Person',
+                    'sort'    => 't.family_name ASC',
                     'columns' => array(
                               'name'         => 'Name',
                               'family_name'  => 'Family name',
