@@ -23,6 +23,8 @@ function person_page()
                     'name',
                     'family_name',
                     'email_address',
+                    'photo',
+                    'photo_legacy',
                     'profile_text',
                     'organization',
                     'role',
