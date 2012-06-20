@@ -3,7 +3,7 @@
 Plugin Name: LSE Cities Tiles Pods UI
 Plugin URI: http://lsecities.net/labs/
 Description: Customized Pods UI for Tiles
-Version: 0.2
+Version: 0.2.1
 Author: Andrea Rota
 Author URI: http://lsecities.net/
 */
@@ -27,12 +27,13 @@ function tile_page()
                     'tile_layout',
                     'class',
                     'target_page',
+                    'target_post',
                     'target_uri',
+                    'target_event',
+                    'target_research_project',
                     'image',
                     'posts_category',
-                    'plain_content',
-                    'linked_event',
-                    'linked_research_project');
+                    'plain_content');
   $object->ui = array(
                     'title'   => 'Tile',
                     'reorder' => 'displayorder',
