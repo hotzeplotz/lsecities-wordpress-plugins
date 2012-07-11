@@ -22,6 +22,7 @@ function person_page()
                     'slug',
                     'name',
                     'family_name',
+                    'title',
                     'email_address',
                     'photo',
                     'photo_legacy',
